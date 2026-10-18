@@ -2,3 +2,6 @@
 @theme {
   --font-dm: "DM Sans", sans-serif; 
 }
+.bestSellerSwiper .swiper-wrapper {
+    transition-timing-function: linear !important;
+}
