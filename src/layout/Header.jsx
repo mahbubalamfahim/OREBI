@@ -75,6 +75,16 @@ const Header = () => {
                     Contacts
                   </Link>
                 </li>
+                <li>
+                  <Link
+                    to={"/journal"}
+                    className={
+                      "hover:text-[#262626] hover:font-bold hover:duration-150"
+                    }
+                  >
+                    Journal
+                  </Link>
+                </li>
               </ul>
             </div>
           </div>
