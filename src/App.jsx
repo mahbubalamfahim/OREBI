@@ -9,6 +9,8 @@ import Contacts from './pages/Contacts'
 import Journal from './pages/Journal'
 import Error from './pages/Error'
 import Login from './pages/Login'
+import SignUP from './pages/SignUP'
+import Account from './pages/Account'
 
 function App() {
 
@@ -20,7 +22,9 @@ function App() {
         <Route path="about" element={<About />} /> 
         <Route path="contacts" element={<Contacts />} /> 
         <Route path="journal" element={<Journal />} /> 
-        <Route path="login" element={<Login />} /> 
+        <Route path="login" element={<Login />} />
+        <Route path="sign-up" element={<SignUP />} />
+        <Route path="account" element={<Account />} />
         <Route path="*" element={<Error />} /> 
       </Route>
     </Routes>
