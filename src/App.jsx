@@ -8,6 +8,7 @@ import Shop from './pages/Shop'
 import Contacts from './pages/Contacts'
 import Journal from './pages/Journal'
 import Error from './pages/Error'
+import Login from './pages/Login'
 
 function App() {
 
@@ -19,6 +20,7 @@ function App() {
         <Route path="about" element={<About />} /> 
         <Route path="contacts" element={<Contacts />} /> 
         <Route path="journal" element={<Journal />} /> 
+        <Route path="login" element={<Login />} /> 
         <Route path="*" element={<Error />} /> 
       </Route>
     </Routes>
