@@ -11,6 +11,7 @@ import Error from './pages/Error'
 import Login from './pages/Login'
 import SignUP from './pages/SignUP'
 import Account from './pages/Account'
+import Checkout from './pages/Checkout'
 
 function App() {
 
@@ -25,6 +26,7 @@ function App() {
         <Route path="login" element={<Login />} />
         <Route path="sign-up" element={<SignUP />} />
         <Route path="account" element={<Account />} />
+        <Route path="checkout" element={<Checkout />} />
         <Route path="*" element={<Error />} /> 
       </Route>
     </Routes>
